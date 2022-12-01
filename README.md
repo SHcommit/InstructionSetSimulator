@@ -30,9 +30,11 @@ ISS 프로그램을 구현하기에 앞서 모든 프로그램은 의존성 주�
 ## 2. 초기 작업
 
 “krp10iss_ysh.cpp” 파일의 fileService.fetchInputBinaryFile()를 통해 바이너리 입력 파일을 저장합니다.
+
 ![3](https://user-images.githubusercontent.com/96910404/205018966-1c8c6358-7476-4de7-a137-79f74d2bfc42.png)
 
  krp10iss_ysh.cpp” 파일의 cpu 인스턴스를 통해 cpu칩의 특정 SPR, GPR를 담당하는 여러 장치의 역할을 구현했습니다. 모든 Instruction 연산 결과는 cpu의 특정 GPR을 담당하는 cpu.registers에 저장됩니다.
+ 
 ![4](https://user-images.githubusercontent.com/96910404/205018969-949632d8-c34c-4d24-b95e-bad975339760.png)
 
  InstructionSetProcess 인스턴스 process를 통해 ISS process가 실행됩니다.
@@ -44,11 +46,15 @@ ISS 프로그램을 구현하기에 앞서 모든 프로그램은 의존성 주�
 InstructionSetType는 ALU가 지원하는 여러 연산의 각 기능이 선언되어 있습니다. 
 
 PipelineType는 파이프라인을 수행할 수 있는 함수들이 선언되어 있습니다.
+
 ![5](https://user-images.githubusercontent.com/96910404/205018973-f540fb1a-5174-4f0a-9407-f20097aa2de8.png)
+
 <그림1>
 
 ![6](https://user-images.githubusercontent.com/96910404/205018975-77e9fe16-bcfb-4c29-92ec-80502f6dce65.png)
+
 <그림2>
+
 ISS의 핵심인 파이프라인 연산 pipelining()은 <그림2> 주석과 같이 1~4 연산을 통해 one Instruction이 수행됩니다.
 
 1. fetchInstructionFromProgramMemory()
