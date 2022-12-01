@@ -1,7 +1,5 @@
 # InstructionSetSimulator
 
-C++ / C 를 이용해  InstructionSetSimulator를 구현했다.
-
 ## 1. 프로그램 구조
 ![1](https://user-images.githubusercontent.com/96910404/205018954-adca2ea5-d722-4629-9506-99c4eb9861ac.png)
 
