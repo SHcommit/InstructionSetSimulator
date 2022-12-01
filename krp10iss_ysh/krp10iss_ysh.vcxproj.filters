@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Service">
+      <UniqueIdentifier>{b402add7-9ecf-4c86-ae53-4a960690fffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Model">
+      <UniqueIdentifier>{352a67ce-1d1d-4eae-b2e9-38ec075c2ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View">
+      <UniqueIdentifier>{bbdc7295-04bb-4f92-8dd6-c1fc68d75dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller">
+      <UniqueIdentifier>{b5736d3b-3f8b-48b3-ac3e-8daa9fea1c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Model">
+      <UniqueIdentifier>{e00fe1da-749e-424f-af7b-246a5a65d952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\View">
+      <UniqueIdentifier>{a4d88db4-ebb4-41f3-9807-a91b12c25122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller">
+      <UniqueIdentifier>{f46a7f89-a109-4a3e-8801-7a28f679fc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Service">
+      <UniqueIdentifier>{87536732-519f-434c-b82b-ff7aa5d9ba32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Utils">
+      <UniqueIdentifier>{224c877f-1277-4689-8844-80a85213786f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Type">
+      <UniqueIdentifier>{ceb39dcb-0c7f-4c09-a2d7-9231b7650185}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="krp10iss_ysh.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>소스 파일\View</Filter>
+    </ClCompile>
+    <ClCompile Include="FileService.cpp">
+      <Filter>소스 파일\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionSetProcess.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CentralProcessingUnit.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileService.h">
+      <Filter>헤더 파일\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>헤더 파일\View</Filter>
+    </ClInclude>
+    <ClInclude Include="krp10iss_ysh.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionSetProcess.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CentralProcessingUnit.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CentralProcessingUnitUtils.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionSetType.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineType.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessType.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="FileServiceType.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenTypes.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
