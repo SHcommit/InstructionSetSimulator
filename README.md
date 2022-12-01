@@ -41,7 +41,8 @@ ISS 프로그램을 구현하기에 앞서 모든 프로그램은 의존성 주�
 
 
 
-3. 주요 기능
+## 3. 주요 기능
+
  ISS의 주요 기능은 PipelineType, InstructionSetType입니다.
 InstructionSetType는 ALU가 지원하는 여러 연산의 각 기능이 선언되어 있습니다. 
 
